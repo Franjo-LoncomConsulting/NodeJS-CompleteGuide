@@ -1,0 +1,22 @@
+***
+If we write a custome scripts, we need to run them with npm run <custome_script_name>
+***
+
+
+
+
+npm installs:
+
+
+npm install nodemon --save-dev -->
+
+
+--save-dev --> save it as production dependencie
+--g --> install globally on the machine
+
+
+
+"^ ---> if we run npm install, this will get the newest version of that dependencie
+
+
+

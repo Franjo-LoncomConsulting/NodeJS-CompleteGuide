@@ -1,0 +1,17 @@
+Alternatives for Express: Adonis.js, Koa, Sails.js ...
+
+
+
+npm install -save Express
+
+
+
+
+
+Why express?
+
+An incoming request is automatically funneled through a bunch of functions, by express.js. So istead of having one request handler
+--> We will actually have a posibility of hooking in multiple functions which the request will go through until we send a response.
+--> This allows us to split our code into multiple blocks or pieces instead of having one huge function.
+--> This is the pluggable nature of express, where we can easily add other third party packages, which simply happen to give you such middleware functions that you can plug into expressJS and add certain functionalities.
+

@@ -1,0 +1,8 @@
+Kinds of errors
+
+Syntax --> typo
+Runtime errors
+Logical errors --> you never see the error message
+
+
+
