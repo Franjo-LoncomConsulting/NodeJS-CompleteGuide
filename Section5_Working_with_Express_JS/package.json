@@ -3,6 +3,7 @@
     "nodemon": "^3.1.4"
   },
   "dependencies": {
+    "body-parser": "^1.20.3",
     "express": "^4.21.0"
   },
   "name": "section5_working_with_express_js",

@@ -3,6 +3,7 @@ Alternatives for Express: Adonis.js, Koa, Sails.js ...
 
 
 npm install -save Express
+npm install -save body-parser
 
 
 
