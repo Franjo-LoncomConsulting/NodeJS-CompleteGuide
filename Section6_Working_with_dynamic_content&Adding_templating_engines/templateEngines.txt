@@ -1,0 +1,27 @@
+--> HTMLish Template 
+-----> Node/Express Content / Templating engines
+---------> Replaces placeholders/ Snippets with HTML Content (generated on the fly)
+--> Result: dynamically, on the fly, generated HTML file that is then sent to the users (users never see the templating)
+
+
+
+--> EJS, Pug(Jade), Handlebars
+
+EJS --> Normal HTML and plain JS in your Tempaltes
+<p><%= name %></p>
+
+- / =
+- ---> renders
+= ---> displays
+
+
+Pug --> minimal HTML and custome template language
+p #{name}
+Official docs: https:://pugjs.org/api/getting-started.html
+
+
+Handlebars --> Normal HTML and custome template language
+<p>{{name}}</p>
+
+
+npm install --save ejs pug express-handlebars

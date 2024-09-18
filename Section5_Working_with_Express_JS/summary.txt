@@ -1,0 +1,13 @@
+Middleware next() and res()
+
+--> Express relies heavily on middleware functions - you can easily add them by calling use()
+--> Middleware functions handle a request and should call next() to forward the request to the next function in line or send a response
+
+Routing
+--> You can filter requests by path and method 
+--> If you filter by method, paths are matched exactly, otherwise, the first segment of a URL is matched
+--> You can use the express.Router to split your routes across files elegantely
+
+Serve files
+--> Send files to the user with sendFile() - e.g. HTML files
+--> If a request is directly made for a file (e.g. a static css file is requested), we can enable static serving for such a files via express.static()

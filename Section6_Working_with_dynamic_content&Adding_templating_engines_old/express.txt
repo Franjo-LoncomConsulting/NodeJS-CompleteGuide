@@ -1,0 +1,1 @@
+view engine --> for any dynamic templates we're trying to render (with special function for doing that) use this engine we're registering, views allow us to tell express where to find these dynamic views

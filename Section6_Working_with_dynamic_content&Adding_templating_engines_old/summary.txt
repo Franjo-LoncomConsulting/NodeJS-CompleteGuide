@@ -1,0 +1,5 @@
+1. We render a template with a special render method provided by expressJS 
+    -> It will always look for the rigistrated view engine
+2. We need to install the templating engines
+3. We can define an object that is passed in render method which will hold the data that is passed as variables into that template
+4. We get normalHTML code that is generated on the fly on the server. 
