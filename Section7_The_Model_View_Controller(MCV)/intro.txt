@@ -1,0 +1,22 @@
+MVC Pattern
+
+--> all about separation of concerns.
+--> Different part of code do different things.
+Models, Views, Controllers
+
+Models 
+--> objects responsible for representing your data.
+--> Work with Data (e.g. Save, Fetch);
+--> 
+
+Views 
+--> What the user sees.
+--> Decoupled from our app code
+--> 
+
+Controllers
+--> Connecting our Views and Models
+--> The-in between logic
+--> which model to work and which view to render
+--> Routs --> Define upon which path for which http method which controller code should execute
+--> Controllers are also kind of split up across middleware functions or some of the logic might be separated.
