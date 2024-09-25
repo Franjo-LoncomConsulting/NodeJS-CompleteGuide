@@ -267,7 +267,7 @@ Request & response
 --> Avoid "double responses";
 
 Node.js & Core Modules
---> Node shišs with multiple core modules (http, fs, path...)
+--> Node ships with multiple core modules (http, fs, path...)
 --> Core modules can be imported into any file to be used there
 --> Import via require ('module');
 
