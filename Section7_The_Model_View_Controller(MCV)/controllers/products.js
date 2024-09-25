@@ -2,7 +2,7 @@ const Product = require("../models/product"); // Class added
 
 exports.getAddProduct = (req, res, next) => {
   res.render("add-products", {
-    docsTitle: "Add product",
+    pageTitle: "Add product",
     path: "/admin/add-product",
     formsCSS: true,
     productCSS: true,
@@ -17,13 +17,14 @@ exports.postAddProduct = (req, res, next) => {
 };
 
 exports.getProducts = (req, res, next) => {
-  const products = Product.fetchAll(); // Calling fetch all method from the Product class so that we can render them on /
-  res.render("shop", {
-    prods: products,
-    docsTitle: "Shop",
-    path: "/",
-    hasProducts: products.length > 0,
-    activeShop: true,
-    productCSS: true,
+  Product.fetchAll((products) => {
+    res.render("shop", {
+      prods: products,
+      pageTitle: "Shop",
+      path: "/",
+      hasProducts: products.length > 0,
+      activeShop: true,
+      productCSS: true,
+    });
   });
 };
